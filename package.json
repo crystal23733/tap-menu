@@ -4,7 +4,7 @@
   "main": "src/server.js",
   "scripts": {
     "server": "nodemon",
-    "client-babel": "babel src/client --out-dir dist --extensions \".ts\""
+    "client-babel": "babel src/client --out-dir dist --extensions \".ts\" -w"
   },
   "author": "",
   "license": "MIT",
