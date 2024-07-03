@@ -1,3 +1,3 @@
 import express from 'express';
 
-const PORT = 8080;
+const PORT: number = 8080;
