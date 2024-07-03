@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "src/server.js",
   "scripts": {
-    "start": "nodemon"
+    "server": "nodemon",
+    "client-babel": "babel src/client --out-dir dist --extensions \".ts\""
   },
   "author": "",
   "license": "MIT",
