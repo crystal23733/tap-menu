@@ -4,7 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>탭 메뉴 구현</title>
+    <style>
+      /* 간단한 탭메뉴의 스타일 */
+      .tab-content {
+        display: none; /* 모든 탭 콘텐츠를 숨김 */
+      }
+      .tab-content.active {
+        display: block; /* 활성화된 탭 콘텐츠만 표시 */
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <h1>간단한 탭메뉴 예제</h1>
+
+    <!-- 탭메뉴 버튼 -->
+    <ul class="tab-menu">
+      <li><a href="#tab1">탭 1</a></li>
+      <li><a href="#tab2">탭 2</a></li>
+      <li><a href="#tab3">탭 3</a></li>
+    </ul>
+
+    <!-- 탭메뉴 콘텐츠 -->
+    <div id="tab1" class="tab-content">탭 1의 내용</div>
+    <div id="tab2" class="tab-content">탭 2의 내용</div>
+    <div id="tab3" class="tab-content">탭 3의 내용</div>
+  </body>
   <script src="/dist/main.js"></script>
 </html>
